@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+    font-family: 'Playfair Display', serif;
+}
+/*.dropdown:hover>.dropdown-menu {*/
+/*    display: block;*/
+/*}*/
+
+link:hover{
+    text-decoration: none;
+}
+
+.liens{
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.dropdown-item{
+    color: white;
+    font-weight: bolder;
+}
+
+.abonner{
+    position: relative;
+    display: inline-block;
+}
+
+.annonces{
+    width: 100%;
+    height: 300px;
+}
+
+.abonner .legende{
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 100px;
+    color: white;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.titre:hover{
+   text-decoration: none;
+}
+
+.image{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.fullbackground{
+    position: relative;
+}
+.slideShow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.75s ease-in-out;
+}
+.before-footer{
+    background-color: rgba(0,0,0,0.5);
+}
+.before-footer h1{
+    color: white;
+}
+.before-footer, p h3 a {
+    color: white;
+}
+
+.nav-link{
+    color: black;
+}
+.second{
+    color: white;
+}
+
+.bordur{
+    color: #ffffff;
+    border: solid white;
+}
+
+@media only screen and (max-width: 320px){
+    .img-logo{
+        margin-left: 40px;
+    }
+    .title, .second{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+}
+.text-animation{
+    font-weight: bold;
+}
+
+.text-animation .letter{
+    display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .title, .second{
+        font-size: 1.9rem;
+        text-align: center;
+    }
+    .bcda-mail{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+
+    .second{
+        font-size: 1.9rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .second{
+        font-size: 1.9rem;
+        text-align: center;
+    }
+}

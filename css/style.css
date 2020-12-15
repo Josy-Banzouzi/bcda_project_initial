@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgrey;
+    font-family: 'Playfair Display', serif;
+}
+/*.dropdown:hover>.dropdown-menu {*/
+/*    display: block;*/
+/*}*/
+
+link:hover{
+    text-decoration: none;
+}
+
+.liens{
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.dropdown-item{
+    color: white;
+    font-weight: bolder;
+}
+
+.abonner{
+    position: relative;
+    display: inline-block;
+}
+
+.annonces{
+    width: 100%;
+    height: 300px;
+}
+
+.abonner .legende{
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 100px;
+    color: white;
+}
+
+.text{
+    font-weight: bold;
+}
+
+.titre:hover{
+   text-decoration: none;
+}
+
+.img-logo{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center !important;
+}
+
+.imgage{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.image{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.fullbackground{
+    position: relative;
+}
+
+.slideShow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.75s ease-in-out;
+}
+
+.before-footer{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.before-footer h1{
+    color: white;
+}
+
+.before-footer, p h3 a {
+    color: white;
+}
+
+.nav-link{
+    color: black;
+}
+.second{
+    color: white;
+}
+
+.bordur{
+    color: #ffffff;
+    border: solid white;
+}
+
+@media screen and (max-width: 375px){
+    .img-logo{
+        margin-left: 50px;
+    }
+    .legende{
+        font-size: 30px;
+        text-align: center;
+    }
+    .annonce{
+        font-size: 35px;
+    }
+    .annon{
+        font-size: 20px;
+    }
+    .second{
+        font-size: 30px;
+        text-align: center;
+    }
+    .conta{
+        font-size: 20px;
+    }
+    .membre{
+        font-size: 15px;
+        text-align: center;
+    }
+}
+.text-animation{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 425px){
+    .img-logo{
+        margin-left: 60px;
+    }
+    .legende{
+        font-size: 30px;
+        text-align: center;
+    }
+    .annon{
+        font-size: 30px;
+        text-align: center;
+    }
+    .conta{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .membre{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+.text-animation .letter{
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+    .subscribe{
+        width: 100%;
+    }
+    .bcda-mail{
+        font-size: 12px;
+    }
+    .suive{
+        font-size: 20px;
+    }
+    .bordur{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .img-logo{
+        margin-left: 70px;
+    }
+    .legende{
+        font-size: 30px;
+        text-align: center;
+    }
+    .conta{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .membre{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .img-logo{
+        margin-left: 80px;
+    }
+    .legende{
+        font-size: 30px;
+        text-align: center;
+    }
+    .conta{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .membre{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .img-logo{
+        margin-left: 35px;
+    }
+    .legende{
+        font-size: 25px;
+        text-align: center;
+    }
+    .conta{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .membre{
+        font-size: 20px;
+        text-align: center;
+    }
+    .table{
+        width: auto;
+    }
+    .annon{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .legende{
+        font-size: 35px;
+    }
+}
+
+/*@media (max-width: 720px) {*/
+
+/*    .second{*/
+/*        font-size: 1rem;*/
+/*        text-align: center;*/
+/*    }*/
+/*    .text{*/
+/*        font-size: 1.9rem;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 1024px) {*/
+
+/*    .second{*/
+/*        font-size: 1rem;*/
+/*        text-align: center;*/
+/*    }*/
+/*    .text{*/
+/*        font-size: 1.9rem;*/
+/*    }*/
+/*}*/
